@@ -1,0 +1,63 @@
+{
+	"metadata":
+	{
+		"type": "LensFile",
+		"version": "0.0.0",
+		"lensInfo":
+		{
+			"serialNumber": "None",
+			"modelName": "AW-UE150",
+			"distortionModel": "Spherical"
+		},
+		"name": "LF_UE150",
+		"nodalOffsetCoordinateSystem": "OpenCV",
+		"fxFyUnits": "Normalized",
+		"cxCyUnits": "Normalized",
+		"userMetadata": []
+	},
+	"sensorDimensions":
+	{
+		"width": 13.199999809265137,
+		"height": 7.309999942779541,
+		"units": "Millimeters"
+	},
+	"imageDimensions":
+	{
+		"width": 1280,
+		"height": 720
+	},
+	"cameraParameterTables": [
+		{
+			"parameterName": "FocalLengthTable",
+			"header": "FocusEncoder, ZoomEncoder, Fx, Fy",
+			"data": "1.0, 0.0, 0.689699, 1.255047; 1.0, 0.524734, 3.219697, 5.919109; 1.0, 1.0, 13.163555, 23.946579"
+		},
+		{
+			"parameterName": "ImageCenterTable",
+			"header": "FocusEncoder, ZoomEncoder, Cx, Cy",
+			"data": "1.0, 0.0, 0.5, 0.5; 1.0, 0.433492, 0.5, 0.5; 1.0, 0.524734, 0.5, 0.5; 1.0, 1.0, 0.5, 0.5"
+		},
+		{
+			"parameterName": "NodalOffsetTable",
+			"header": "FocusEncoder, ZoomEncoder, Qx, Qy, Qz, Qw, Tx, Ty, Tz",
+			"data": "1.0, 0.001466, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0; 1.0, 0.593624, 0.0, 0.0, 0.0, 1.0, -2.0, 0.0, 0.0"
+		},
+		{
+			"parameterName": "DistortionTable",
+			"header": "FocusEncoder, ZoomEncoder, K1, K2, K3, P1, P2",
+			"data": "1.0, 0.0, -0.003706, 0.025115, -0.058529, -0.001169, -0.001541; 1.0, 0.524734, -0.211732, 17.298281, -574.194641, -0.009599, -0.003113; 1.0, 1.0, 5.511617, -3090.408203, -5.371883, -0.019814, 0.003611"
+		}
+	],
+	"encoderTables": [
+		{
+			"parameterName": "Focus",
+			"header": "FocusEncoder, FocusCM",
+			"data": "0.0, 10.0; 1.0, 100.0"
+		},
+		{
+			"parameterName": "Iris",
+			"header": "IrisEncoder, IrisFstop",
+			"data": ""
+		}
+	]
+}
