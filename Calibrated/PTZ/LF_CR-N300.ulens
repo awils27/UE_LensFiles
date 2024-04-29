@@ -1,0 +1,63 @@
+{
+	"metadata":
+	{
+		"type": "LensFile",
+		"version": "0.0.0",
+		"lensInfo":
+		{
+			"serialNumber": "None",
+			"modelName": "None",
+			"distortionModel": "Spherical"
+		},
+		"name": "CanonCR-N300",
+		"nodalOffsetCoordinateSystem": "OpenCV",
+		"fxFyUnits": "Normalized",
+		"cxCyUnits": "Normalized",
+		"userMetadata": []
+	},
+	"sensorDimensions":
+	{
+		"width": 4.7300000190734863,
+		"height": 2.6600000858306885,
+		"units": "Millimeters"
+	},
+	"imageDimensions":
+	{
+		"width": 1920,
+		"height": 1080
+	},
+	"cameraParameterTables": [
+		{
+			"parameterName": "FocalLengthTable",
+			"header": "FocusEncoder, ZoomEncoder, Fx, Fy",
+			"data": "0.0, -0.1, 0.560254, 1.778195; 0.0, 0.0, 0.835095, 1.778196; 0.0, 0.1, 1.078224, 1.778195; 0.0, 0.15, 1.199788, 1.778195; 0.0, 0.25, 1.469345, 1.503759; 0.0, 0.4, 2.008457, 1.778195; 0.0, 0.5, 2.536998, 8.270677; 0.0, 0.6, 3.32981, 1.778195; 0.0, 0.75, 5.100423, 10.526316; 0.0, 0.85, 7.399576, 1.778195; 0.0, 0.9, 9.17019, 1.778195; 0.0, 1.0, 15.750528, 1.778196; 0.0, 1.1, 33.826641, 1.778195"
+		},
+		{
+			"parameterName": "ImageCenterTable",
+			"header": "FocusEncoder, ZoomEncoder, Cx, Cy",
+			"data": ""
+		},
+		{
+			"parameterName": "NodalOffsetTable",
+			"header": "FocusEncoder, ZoomEncoder, Qx, Qy, Qz, Qw, Tx, Ty, Tz",
+			"data": "0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 5.0"
+		},
+		{
+			"parameterName": "DistortionTable",
+			"header": "FocusEncoder, ZoomEncoder, K1, K2, K3, P1, P2",
+			"data": "0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0; 0.0, 0.25, 0.0, 0.0, 0.0, 0.0, 0.0; 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0; 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0"
+		}
+	],
+	"encoderTables": [
+		{
+			"parameterName": "Focus",
+			"header": "FocusEncoder, FocusCM",
+			"data": ""
+		},
+		{
+			"parameterName": "Iris",
+			"header": "IrisEncoder, IrisFstop",
+			"data": ""
+		}
+	]
+}
