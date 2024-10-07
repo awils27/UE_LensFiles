@@ -9,7 +9,7 @@
 			"modelName": "AW-UE150",
 			"distortionModel": "Spherical"
 		},
-		"name": "LF_UE150_HughManual",
+		"name": "LF_UE150",
 		"nodalOffsetCoordinateSystem": "OpenCV",
 		"fxFyUnits": "Normalized",
 		"cxCyUnits": "Normalized",
