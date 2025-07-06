@@ -1,0 +1,63 @@
+{
+	"metadata":
+	{
+		"type": "LensFile",
+		"version": "0.0.0",
+		"lensInfo":
+		{
+			"serialNumber": "None",
+			"modelName": "HJ11eX4.7B",
+			"distortionModel": "Spherical"
+		},
+		"name": "LF_CanonHJ11eX47B",
+		"nodalOffsetCoordinateSystem": "OpenCV",
+		"fxFyUnits": "Normalized",
+		"cxCyUnits": "Normalized",
+		"userMetadata": []
+	},
+	"sensorDimensions":
+	{
+		"width": 4.8000001907348633,
+		"height": 2.7000000476837158,
+		"units": "Millimeters"
+	},
+	"imageDimensions":
+	{
+		"width": 1920,
+		"height": 1080
+	},
+	"cameraParameterTables": [
+		{
+			"parameterName": "FocalLengthTable",
+			"header": "FocusEncoder, ZoomEncoder, Fx, Fy",
+			"data": "0.0, 0.0, 0.525521, 1.777778; 0.0, 0.25, 0.833333, 1.777778; 0.0, 0.5, 1.5625, 5.555555; 0.0, 0.75, 3.072917, 10.37037; 0.0, 1.0, 5.729167, 19.25926; 1.0, 0.0, 0.520833, 1.777778; 1.0, 0.25, 0.833333, 1.777778; 1.0, 0.5, 1.822916, 5.555555; 1.0, 0.75, 4.427083, 10.37037; 1.0, 1.0, 8.854166, 19.25926"
+		},
+		{
+			"parameterName": "ImageCenterTable",
+			"header": "FocusEncoder, ZoomEncoder, Cx, Cy",
+			"data": ""
+		},
+		{
+			"parameterName": "NodalOffsetTable",
+			"header": "FocusEncoder, ZoomEncoder, Qx, Qy, Qz, Qw, Tx, Ty, Tz",
+			"data": "0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -8.0; 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -8.5"
+		},
+		{
+			"parameterName": "DistortionTable",
+			"header": "FocusEncoder, ZoomEncoder, K1, K2, K3, P1, P2",
+			"data": ""
+		}
+	],
+	"encoderTables": [
+		{
+			"parameterName": "Focus",
+			"header": "FocusEncoder, FocusCM",
+			"data": "0.0, 100000.0; 0.5, 65.0; 1.0, 20.0"
+		},
+		{
+			"parameterName": "Iris",
+			"header": "IrisEncoder, IrisFstop",
+			"data": ""
+		}
+	]
+}
